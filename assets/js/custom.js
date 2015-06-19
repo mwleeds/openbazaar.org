@@ -1,6 +1,7 @@
 // When DOM is fully loaded
 jQuery(document).ready(function ($) {
-
+    
+    
 	/* FlexSlider
 	--------------------------------------------------*/
 	
@@ -155,3 +156,4 @@ jQuery(document).ready(function ($) {
 	/* End all Custom Functions */
 		
 });
+
