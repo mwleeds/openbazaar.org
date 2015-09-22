@@ -1,0 +1,142 @@
+h1 {
+  color: #fff;
+  font-size: 45px;
+  font-family: "Gotham Bold";
+  line-height: 50px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-top: 2px;
+  opacity: .7;
+}
+
+h3 {
+  color: #fff;
+  font-size:  20px;
+  letter-spacing: 4.5px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-top: 60px;
+}
+
+a {
+  color: #fff;
+  font-size: 13px;
+  opacity: .8;
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+p,
+span {
+  font-family: "Helvetica Neue", Helvetica, "Open Sans";
+  font-size: 14px;
+}
+
+.type-opacity {
+  opacity: .80;
+}
+
+.type-opacity-half {
+  opacity: .50;
+}
+.type-opacity-75 {
+  opacity: .75;
+}
+
+.type-align-right {
+  text-align: right;
+}
+
+.type-align-center {
+  text-align: center;
+}
+
+.type-color-ffffff {
+  color: #ffffff;
+}
+
+.type-color-959595 {
+  color: #959595;
+}
+
+.type-color-222222 {
+  color: #222222;
+}
+
+.type-color-000 {
+  color: #000;
+}
+
+.type-weight-light {
+  font-family: "Helvetica Neue", Helvetica, "Open Sans";
+}
+
+.type-weight-medium {
+  font-family: "Helvetica Neue", Helvetica, "Open Sans";
+}
+
+.type-letter-spacing-1_2 {
+  letter-spacing: 1.2; 
+}
+
+.type-no-wrap {
+  white-space: nowrap;
+}
+
+.type-size-12px {
+  font-size: 12px;
+}
+
+.type-size-13px {
+  font-size: 13px;
+}
+
+.type-size-14px {
+  font-size: 14px;
+}
+
+.type-size-15px {
+  font-size: 15px;
+}
+
+.type-size-16px {
+  font-size: 16px;
+}
+
+.type-size-20px {
+  font-size: 20px;
+}
+
+.type-size-24px {
+  font-size: 24px;
+}
+
+.type-size-26px {
+  font-size: 26px;
+}
+
+.type-size-30px {
+  font-size: 30px;
+}
+
+.type-line-height-16px {
+  line-height: 16px;
+}
+
+.type-line-height-18px {
+  line-height: 18px;
+}
+
+.type-line-height-24px {
+  line-height: 24px;
+}
+
+.type-bold {
+  font-family: "font-black";
+}
