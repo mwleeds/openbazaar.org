@@ -250,7 +250,7 @@ ul li a:hover {
   background: url(../img/icon-reddit.png) no-repeat;
   background-size: 100%;
   height: 19px;
-  width: 21px; 
+  width: 23px; 
 }
 
 .icon-email {
@@ -274,10 +274,10 @@ ul li a:hover {
   }
 
   ul li {
-    /*font-size: 17px;*/
+    font-size: 13px;
   }
 
   ul li a {
-    /*font-size: 17px;*/
+    font-size: 13px;
   }
 }
