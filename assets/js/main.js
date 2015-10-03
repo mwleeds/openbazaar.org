@@ -28,15 +28,17 @@ $(function () {
     function advanceSlide() {
         var slide = slides[currentSlide];
         $('.section-main').css('background', slide.backgroundColor);
-
         $('.screenshot').fadeOut(animationDelay, function () {
             $('.screenshot').css('background', 'url(' + imagePath + slide.screenshot + ') top left / cover no-repeat');
         }).fadeIn(animationDelay);
-        $('body').animate({backgroundColor: slide.bodyAnimationBackgroundColor}, 'fast');
+        $('body').animate({ backgroundColor: slide.bodyAnimationBackgroundColor }, 'fast');
         $('.overlay').fadeTo('slow', 0.0, function () {
             $('.overlay').css('background', 'url(' + imagePath + slide.overlayImage + ') 0 50% / cover no-repeat');
         }).fadeTo('slow', 0.06);
         currentSlide++;
+        if (currentSlide > slides.length - 1) {
+            currentSlide = 0;
+        }
     }
 
     setInterval(advanceSlide, slideAdvanceDelay);
