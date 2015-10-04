@@ -3,52 +3,6 @@
     <title>OpenBazaar</title>
     <link rel="stylesheet" href="assets/css/ui-kit.css">
     <link rel="icon" type="image/png" href="favicon.png" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-    <script>
-      $(function() {
-
-        setInterval(function() {
-          var id = parseInt($('.section-main').attr('id'));
-          switch(id){
-            case 1:
-              $('.section-main').attr('id', 2).css('background', '#1F231D');
-
-              $('.screenshot').fadeOut(400, function(){
-                $('.screenshot').css('background', 'url(assets/img/screen-1.png) top left / cover no-repeat');
-              }).fadeIn(400);
-              $('body').animate({backgroundColor: '#2B3328'}, 'fast');
-              $('.overlay').fadeTo('slow', 0.0, function(){
-                $('.overlay').css('background', 'url(assets/img/background-1.jpg) 0 50% / cover no-repeat');
-              }).fadeTo('slow', 0.06);
-              
-
-              break;
-            case 2:
-              $('.section-main').attr('id', 3).css('background', '#201520');
-              $('.screenshot').fadeOut(400, function(){
-                $('.screenshot').css('background', 'url(assets/img/screen-2.png) top left/ cover no-repeat');
-              }).fadeIn(400);
-              $('body').animate({backgroundColor: '#201520'}, 'fast');
-              $('.overlay').fadeTo('fast', 0.0, function(){
-                $('.overlay').css('background', 'url(assets/img/background-2.jpg) 0 50% / cover no-repeat');
-              }).fadeTo('slow', 0.1);
-
-              break;
-            case 3:
-              $('.section-main').attr('id', 1).css('background', '#785A19');
-              $('.screenshot').fadeOut(400, function(){
-                $('.screenshot').css('background', 'url(assets/img/screen-3.png) top left/ cover no-repeat');
-              }).fadeIn(400);
-              $('body').animate({backgroundColor: '#785A19'}, 'fast');
-              $('.overlay').fadeTo('fast', 0.0, function(){
-                $('.overlay').css('background', 'url(assets/img/background-3.jpg) 0 50% / cover no-repeat');
-              }).fadeTo('slow', 0.06);
-              break;
-          }
-        },  6000);
-      });
-    </script>
   </head>
 
   <body>
@@ -69,7 +23,7 @@
             <div class="main-cta">Opening Soon</div>
             <a href="https://github.com/openbazaar" target="_blank" title="View open source code on Github">It's open source. View the code.</a>
           </div>
-          <div class="screenshot" style="background: url(assets/img/screen-1.png) no-repeat; background-size: 100%; width: 780px; height: 495px; position: absolute; bottom: 71px;  "></div>
+          <div class="screenshot"></div>
         </div>
         <div class="section-bottom">
           <div class="questions-area position-float-left">
@@ -87,7 +41,7 @@
               <li><a href="https://blog.openbazaar.org/" target="_blank">Blog</a></li>
               <li><a href="https://docs.openbazaar.org/" target="_blank">Documentation</a></li>
               <li><a href="https://blockchain.info/address/3MXYUBLWNETa5HTewZp1xMTt7AW9kbFNqs" target="_blank">Project donations</a></li>
-              <li style="line-height: 0">
+              <li class="social">
                 <a href="https://openbazaar-slackin-drwasho.herokuapp.com/" target="_blank" title="Join us on Slack"><div class="icon-social icon-slack"></div></a>
                 <a href="https://twitter.com/openbazaar" target="_blank" title="Twitter"><div class="icon-social icon-twitter"></div></a>
                 <a href="https://reddit.com/r/openbazaar" target="_blank" title="Reddit"><div class="icon-social icon-reddit"></div></a>
@@ -98,5 +52,8 @@
         </div>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
