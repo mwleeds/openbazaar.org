@@ -46,7 +46,8 @@ ul li a:hover {
 .section-right {
   position: relative;
   height: 100%;
-  left: 281px;
+  margin: auto;
+  left: 0;
   top: 71px;
   width: 800px;
   z-index: 10;
@@ -73,8 +74,9 @@ ul li a:hover {
 
 .section-bottom {
   height: 365px;
-  left: 281px;
+  left: 0;
   margin-top: 0px;
+  margin: auto;
   position: relative;
   width: 784px;
   z-index: 10;
