@@ -16,7 +16,7 @@ $(function () {
             sectionBackgroundColor: '#201520',
             screenshot: 'screen-2.png',
             overlayImage: 'background-2.jpg',
-            bodyAnimationBackgroundColor: '#201520',a
+            bodyAnimationBackgroundColor: '#201520',
             opacity: 0.5
         },
         {
