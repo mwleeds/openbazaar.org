@@ -9,6 +9,23 @@ $(function () {
         $('.js-bottom-notice').addClass('bottom0');
     }, 350);
 
-    $('.js-os-type').html(OSName);
-    // $('.js-file-url').attr('src','https://download.spotify.com/SpotifyInstaller.zip')
+    switch(OSName){
+        case "MacOS":
+            $('.js-os-type').html("Mac"); 
+            $('.js-file-url').attr('src','https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.0.4/OpenBazaar-1.0.4.dmg');
+            break;
+        case "Windows":
+            // if 64-bit
+            if (navigator.userAgent.indexOf("WOW64") != -1 || navigator.userAgent.indexOf("Win64") != -1 ){
+                $('.js-os-type').html("Windows(64-bit"); 
+                $('.js-file-url').attr('src','https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.0.4/OpenBazaar-1.0.4_Setup_x64.exe');
+            }else{
+                $('.js-os-type').html("Windows(32-bit"); 
+                $('.js-file-url').attr('src','https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.0.4/OpenBazaar-1.0.4_Setup_ia32.exe');
+            }
+            break;
+        default: 
+            $('.js-download-message').html('Choose an operating system below');
+            break;
+    }
 });
