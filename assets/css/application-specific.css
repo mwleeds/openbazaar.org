@@ -313,11 +313,10 @@ ul li a:hover {
 }
 
 .download-holder {
-    position: relative; 
-    top: 50%; 
-    transform: translateY(-60%); 
+    position: absolute; 
+    transform: translateY(75%); 
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
