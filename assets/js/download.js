@@ -21,7 +21,7 @@ $(function () {
                 $('.js-file-url').attr('src','https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.0.4/OpenBazaar-1.0.4_Setup_x64.exe');
             }else{
                 $('.js-os-type').html("Windows(32-bit"); 
-                $('.js-file-url').attr('src','https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.0.4/OpenBazaar-1.0.4_Setup_ia32.exe');
+                $('.js-file-url').attr('src','https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.0.4/OpenBazaar-1.0.4_Setup_i386.exe');
             }
             break;
         default: 
