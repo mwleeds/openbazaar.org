@@ -28,7 +28,7 @@ ul li:last-child {
 
 ul li a {
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     opacity: .75;
     text-decoration: none;
     transition: color 0.1s ease;
@@ -74,7 +74,7 @@ ul li a:hover {
 }
 
 .section-bottom {
-  height: 365px;
+  height: 395px;
   left: 0;
   margin-top: 0px;
   margin: auto;
@@ -140,6 +140,21 @@ ul li a:hover {
       filter: blur(2px);*/
 }
 
+.btn {
+    font-family: "Gotham Bold", serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    width: 80px;
+    text-align: center;
+    font-size: 13px; 
+    background: #086A9E; 
+    border-radius: 3px; 
+    cursor: pointer;
+    position: absolute; 
+    top: 20px;
+}
+
 .main-cta {
     background: #2FB364;
     border-radius: 3px;
@@ -157,6 +172,8 @@ ul li a:hover {
     text-transform: uppercase;
     transition: background-color 0.2s ease;
     width: 232px;
+    cursor: pointer;
+    font-size: 18px;
 }
 
 .main-cta:hover {
@@ -208,6 +225,15 @@ ul li a:hover {
     text-align: center;
     width: 222px;
 }
+
+.main-cta-button {
+    text-decoration: none;
+}
+
+.main-cta-button:hover {
+    text-decoration: none;
+}
+
 
 .headline-area {
     display: inline-block;
@@ -278,6 +304,52 @@ ul li a:hover {
     bottom: 71px;
 }
 
+/* download page */
+.download-body {
+    background: #063753;
+    color: #fff;
+    overflow: hidden;
+
+}
+
+.download-holder {
+    position: absolute; 
+    transform: translateY(75%); 
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.icon-download {
+    width:180px; 
+    height: 180px; 
+    margin: auto;
+}
+
+.bottom-notice {
+    transition: bottom .25s cubic-bezier(0, 0, 0.2, .5);
+    position: fixed; 
+    background: #252525; 
+    color: #fff; 
+    width: 710px; 
+    text-align: center; 
+    padding: 15px; 
+    font-size: 14px; 
+    margin: auto; 
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 4px; 
+    left: 50%; 
+    margin-left: -355px; 
+    bottom: -50px;
+    z-index: 50;
+}
+
+.bottom0 {
+    bottom: 0;
+}
+
+
+/* mobile */
 @media screen and (max-width: 1170px) {
     .answer {
         visibility: hidden;
@@ -310,6 +382,15 @@ ul li a:hover {
 
     ul li a {
         font-size: 13px;
+    }
+
+    .bottom-notice {
+        width: 90%;
+        margin-left: 0; 
+        left:   2.5%;
+        padding: 10px 10px;
+        font-size: 13px;
+        line-height: 15px;
     }
 }
 

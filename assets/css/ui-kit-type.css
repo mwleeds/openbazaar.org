@@ -34,11 +34,12 @@ a:hover {
 
 p,
 span {
-  font-family: "Helvetica Neue", Helvetica, "Open Sans";
-  font-size: 14px;
 }
 
-.type-opacity {
+.type-opacity-1 {
+  opacity: 1;
+}
+}.type-opacity {
   opacity: .80;
 }
 

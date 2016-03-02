@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Downloading OpenBazaar...</title>
+    <link rel="stylesheet" href="assets/css/ui-kit.css">
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+
+  <body class="download-body">
+    <iframe width="1" height="1" frameborder="0" src="" class="js-file-url"></iframe>
+    <a href="index.html">
+      <div class="btn" style="left: 20px;">< Back</div>
+    </a>
+    <a href="https://blog.openbazaar.org/openbazaar-user-tutorial/" target="_blank">
+      <div class="btn" style="right: 20px;">Tutorial</div>
+    </a>
+    <div class="download-holder">
+      <div class="icon icon-download"></div>
+      <div class="js-download-message" style="font-size: 28px; margin-top: 12px">
+        <span>Downloading OpenBazaar(v1.0.6) for <span class="js-os-type"></span>...</span>
+      </div>
+      <div style="font-size: 13px; margin-top: 7px; text-align: center;">
+        <!-- release notes -->
+        <span class="type-size-14px">Release Notes</span> 
+          (<a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases" class="js-release-notes" target="_blank">Github</a>) &nbsp;
+
+        <!-- mac  -->
+        <span class="type-size-14px">Mac</span> 
+          <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.0.6/OpenBazaar-1.0.6.dmg" class="js-download-mac">(64-bit)</a> &nbsp;
+
+        <!-- windows -->
+        <span class="type-size-14px">Windows</span> 
+          (<a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.0.6/OpenBazaar-1.0.6_Setup_i386.exe" class="js-download-windows">32-bit</a> | 
+          <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.0.6/OpenBazaar-1.0.6_Setup_x64.exe" class="js-download-windows">64-bit</a>) </a> &nbsp;
+
+        <!-- linux -->
+        <span class="type-size-14px">Linux</span> 
+          (<a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.0.6/openbazaar_1.0.6_i386.deb" class="js-download-linux">32-bit</a> | 
+          <a href="https://github.com/OpenBazaar/OpenBazaar-Installer/releases/download/v1.0.6/openbazaar_1.0.6_amd64.deb" class="js-download-linux">64-bit</a>) &nbsp;
+      </div>
+    </div>
+
+    <div class="bottom-notice js-bottom-notice">OpenBazaar is running in Testnet mode. It's <u>not recommended</u> to be used on real transactions yet</div>
+
+    <!-- js stuff -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/js/download.js"></script>
+  </body>
+</html>
